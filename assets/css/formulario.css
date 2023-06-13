@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    background-color: #EBF2F6;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    min-height: 100vh;
+}
+
+.forms {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.form_titulo {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    -ms-flex-align: center;
+    gap: 10px;
+}
+
+.form_label{
+	color: #fff;
+	font-size: 2.3em;
+	justify-content: center;
+	display: flex;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.form_input{
+	width: 60%;
+	height: 50px;
+	background: #e0dede;
+	justify-content: center;
+	display: flex;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+    margin-left: 20%;
+    padding: 20px;
+}
+
+.button {
+    margin-left: 27%;
+    width: 45%;
+	height: 40px;
+    justify-content: center;
+    border: none;
+    background-color: #7EB0F5;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover{
+    background-color: #CADDF4;
+}
+
+.form_img {
+    margin-left: 15%;
+    width: 70%;
+}
+
+.disable {
+    opacity: 0.5;
+}
